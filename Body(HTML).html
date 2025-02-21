@@ -9,26 +9,56 @@
 </head>
 <div class="location">
   <body>
-    <label for="origin"><h2> I am sending from:</h2></label>
-    <input type = "text" id = "origin"  />
+    <h2>Where are you sending too?</h2>
+      <label for="origin"><h3> I am sending from:</h3></label>
+      <input type = "text" id = "origin"  />
 
-    <label for="destination"><h2> I am sending too:</h2></label>
-    <input type = "text" id = "destination"/>
+      <label for="destination"><h3> I am sending too:</h3></label>
+      <input type = "text" id = "destination"/>
   </body>
 </div>
 
 <div class="dimensions">
   <body>
-    <img src="labled_3d_rectangle.svg" alt="cubiod labled: height, length, and width">
-    <label for="height">Height</label>
-    <input type = "number" id = "height" height = "height">
+    <h2>Select the Dimensions of your Parcel</h2>
+      <img src="labled_3d_rectangle.svg" alt="cubiod labled: height, length, and width">
 
-    <label for="length">length</label>
-    <input type = "number" id = "length" length = "length">
+      <label for="height">Height</label>
+      <input type = "number" id = "height" height = "height">
 
-    <label for="width">width</label>
-    <input type = "number" id = "width" width = "width">
+      <label for="length">length</label>
+      <input type = "number" id = "length" length = "length">
+
+      <label for="width">width</label>
+      <input type = "number" id = "width" width = "width">
   </body>
 </div>
+
+<div class="weight" >
+  <body>
+    <h2>What weight range does your parcel fit into?</h2>
+    <lable for ="weight range">Select weight range:</lable>
+    <select	name = " weight range" id = "weight range">
+      <option value="Weighs up to 3Kg">Weighs up to 3Kg</option>
+      <option value="Weighs up to 5Kg">Weighs up to 5Kg</option>
+      <option value="Weighs up to 10Kg">Weighs up to 10Kg</option>
+      <option value="Weighs up to 15Kg">Weighs up to 15Kg</option>
+      <option value="Weighs up to 20Kg">Weighs up to 20Kg</option>
+      <option value="Weighs up to 25Kg">Weighs up to 25Kg</option>
+    </select>
+  </body>
+</div>
+
+<div class = "value" >
+  <h2>What is the vaule</h2>
+    <label for = "parcel value">Select Value (NZD)</label>
+    <select name = "parcel value" id = "parcel value">
+      <option value="up to $250">up to $250</option>
+      <option value="Between $250 - $2000">Between $250 - $2000</option>
+      <option value="More than $2000">More than $2000</option>
+  </select>
+</div>
+
+
 
 </html>
